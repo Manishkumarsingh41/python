@@ -1,10 +1,8 @@
-num = int(input("Enter your number: "))
-#print("Your age is:", a)
-if (num < 0):
-    print("Number is negative.")
-elif (num == 0):
-    print("Number is Zero.")
+spam = int(input("Enter a value for spam: ")) 
+
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
 else:
-    print("Number is positive.")
-    
-print("I am happy")
+    print("Greetings!")
