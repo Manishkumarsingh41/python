@@ -1,4 +1,14 @@
-apple = '''In python, anything that you enclose between single or double quotation marks is considered a string. A string is essentially a sequence or array of textual data. Strings are used when working with Unicode characters'''
-print("Lets use a for loop\n")
-for character in apple:
-    print(character)
+
+mixed_case = "A Song of Ice and Fire"
+print(mixed_case.isupper())  
+print(mixed_case.islower())  
+print(mixed_case.upper())  
+print(mixed_case.lower())  
+print(mixed_case.istitle())  
+title_case = mixed_case.title()
+print(title_case)  
+print(mixed_case.startswith("A"))  
+print(mixed_case.endswith("e"))  
+words = mixed_case.split()
+print(words)  
+print("".join(words).isalpha())  
