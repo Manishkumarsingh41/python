@@ -1,0 +1,11 @@
+def calculator(a,b):
+    print('sum:-',a+b)
+    print('sub:-',a-b)
+    print('mul:-',a*b)
+    print('div:-',a/b)
+calculator(2,4)
+calculator(2,5)
+calculator(2,6)
+calculator(2,7)
+calculator(2,8)
+calculator(2,9)
