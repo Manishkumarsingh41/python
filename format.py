@@ -9,7 +9,6 @@ data = {
     'Marketing': 1672935,
     'Accounting': 824275,
 }
-
 # Convert the salary values to integers (removing commas)
 for department, salary in data.items():
     data[department] = int(salary.replace(',', ''))
