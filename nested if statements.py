@@ -9,4 +9,4 @@ elif (num > 0):
     else:
         print("Number is greater than 20")
 else:
-    print("Number is zero")
+    print("Number is zero")
