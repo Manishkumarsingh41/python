@@ -5,8 +5,7 @@ pyperclip.copy("This is a string.")
 
 # Paste the string
 print(pyperclip.paste())
-
-
+
 def read_file(filename):
   """Reads the contents of a text file and returns it as a string."""
   with open(filename, "r") as f:
