@@ -4,7 +4,7 @@ exp=2023-year_of_join
 if exp>=5:
     print("You are elegible for bonous")
     sal=int(input("Enter your salery:-"))
-    bonous_percentage=float(input("Enter bonous percentage:-"))    
+    bonous_percentage = float(input("Enter bonous percentage:-"))    
     bonous=sal*(bonous_percentage/100)+sal
     print("The salary of ",name,"after adding bonous is ",bonous,)
 else:
