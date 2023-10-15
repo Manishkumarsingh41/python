@@ -6,6 +6,5 @@ def add(a, b):
 
   Returns:
     The sum of a and b.
-  """
-
+  """
   return a + b
