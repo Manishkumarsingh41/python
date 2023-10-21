@@ -7,5 +7,5 @@ print()
 a.insert(3, 8)
 print("Array after insertion : ", end=" ")
 for i in (a):
-	print(i, end=" ")
+	print(i,end=" ")
 print()
