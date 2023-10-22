@@ -8,6 +8,5 @@ def word_counter(words):
     for j in spaces_and_letters:
         if j == " ":
             word_count += 1
-    return word_count
- 
+    return word_count
 print(word_counter(str_1))
