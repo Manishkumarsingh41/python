@@ -15,8 +15,7 @@ for department, salary in data.items():
 
 # Extract department names and salaries as separate lists
 departments = list(data.keys())
-salaries = list(data.values())
-
+salaries = list(data.values())
 # Plot the data as a bar graph
 plt.figure(figsize=(10, 6))
 plt.bar(departments, salaries, color='skyblue')
