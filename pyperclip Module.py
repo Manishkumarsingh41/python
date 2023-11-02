@@ -16,8 +16,7 @@ def main():
   """Reads the contents of a text file and prints it to the console."""
   filename = input("Enter the filename: ")
   contents = read_file(filename)
-  print(contents)
-
+  print(contents)
 
 if __name__ == "__main__":
   main()
