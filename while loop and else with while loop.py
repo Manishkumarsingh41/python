@@ -2,8 +2,7 @@ print('while Loop ')
 count = 5
 while (count > 0):
   print(count)
-  count = count - 1
-
+  count = count - 1
 print('Else with While Loop ')
 x = 5
 while (x > 0):
