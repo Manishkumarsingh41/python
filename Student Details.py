@@ -7,7 +7,6 @@ student = {
     "grade": "",
     "major": "",
 }
-
 # Prompt the user for input and store it in the dictionary
 student["name"] = input("Enter student name: ")
 student["age"] = int(input("Enter student age: "))
