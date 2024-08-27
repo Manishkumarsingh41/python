@@ -8,7 +8,6 @@ def power(x, y):
 		
 	return x * power(x, y // 2) * power(x, y // 2)
 
-
 def order(x):
 
 	
